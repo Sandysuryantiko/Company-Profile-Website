@@ -33,7 +33,4 @@ Beberapa kemungkinan teknologi yang digunakan:
 
 ---
 
-## 📁 Struktur Direktori (Contoh)
-
-Berikut contoh struktur proyek (silakan disesuaikan):
 
