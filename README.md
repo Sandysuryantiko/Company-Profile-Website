@@ -20,15 +20,9 @@ Beberapa fitur utama:
 
 ## ⚙️ Teknologi & Dependensi
 
-*(Sesuaikan dengan stack yang dipakai: misalnya React, Vue, Next.js, Nuxt, plain HTML/CSS/JS, atau framework lain)*
-
-Beberapa kemungkinan teknologi yang digunakan:
-
-- HTML5, CSS3, JavaScript  
-- Framework / library (misalnya React, Vue, Next.js, dsb)  
+- HTML5, CSS3, JavaScript 
 - Framework CSS (Bootstrap, Tailwind, dsb)  
-- Modul bundler / build tool (Webpack, Vite, dsb)  
-- Hosting: Netlify (dari domain terlihat)  
+- Hosting: Netlify  
 - Tools tambahan: form handler (Netlify Forms, EmailJS, dsb), plugin SEO, plugin analytics
 
 ---
