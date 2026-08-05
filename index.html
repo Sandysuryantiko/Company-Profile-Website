@@ -1,119 +1,386 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <title>TB Abdul Fatah, S.H. | Advokat</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
-  <link rel="stylesheet" href="css/style.css"/>
-</head>
-<body>
-  <a href="#main-content" class="skip-link">Skip to Content</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>TB Abdul Fatah, S.H. | Advokat & Konsultan Hukum</title>
+    <meta
+      name="description"
+      content="TB Abdul Fatah, S.H. dan Rekan — Advokat dan konsultan hukum berpengalaman di bidang pidana, perdata, bisnis, agraria, keluarga, dan ketenagakerjaan."
+    />
 
-  <nav>
-    <div class="logo">TB Abdul Fatah</div>
-    <div class="menu-toggle" id="mobile-menu">
-      <i class="fas fa-bars"></i>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Lewati ke Konten</a>
+
+    <!-- Progress rail -->
+    <div class="scroll-rail" aria-hidden="true">
+      <div class="scroll-rail-fill" id="scrollFill"></div>
     </div>
-    <ul id="nav-menu">
-      <li><a href="#home">Beranda</a></li>
-      <li><a href="#about">Tentang</a></li>
-      <li><a href="#services">Keahlian</a></li>
-      <li><a href="#articles">Artikel</a></li>
-      <li><a href="#contact">Kontak</a></li>
-    </ul>
-  </nav>
 
-  <header id="home">
-    <div class="hero-flex">
-      <div class="profile-pic" data-aos="zoom-in">
-        <img src="img/profil abdul.jpg" alt="Foto TB Abdul Fatah" />
+    <nav id="mainNav">
+      <a href="#home" class="logo">
+        <span class="logo-mark">TB</span>
+        <span class="logo-text">Abdul Fatah <em>&amp; Rekan</em></span>
+      </a>
+      <div
+        class="menu-toggle"
+        id="mobile-menu"
+        aria-label="Buka menu"
+        role="button"
+        tabindex="0"
+      >
+        <span></span><span></span><span></span>
       </div>
-      <div class="hero-text">
-        <h1 data-aos="fade-up">TB Abdul Fatah, S.H.</h1>
-        <p data-aos="fade-up" data-aos-delay="200">Advokat & Konsultan Hukum</p>
-        <a href="https://wa.me/6281316411240" class="cta" data-aos="fade-up" data-aos-delay="400">Konsultasi Sekarang</a>
-      </div>
-    </div>
-  </header>
+      <ul id="nav-menu">
+        <li><a href="#home" data-nav="home">Beranda</a></li>
+        <li><a href="#about" data-nav="about">Tentang</a></li>
+        <li><a href="#services" data-nav="services">Keahlian</a></li>
+        <li><a href="#articles" data-nav="articles">Artikel</a></li>
+        <li><a href="#portfolio" data-nav="portfolio">Portofolio</a></li>
+        <li><a href="#contact" data-nav="contact">Kontak</a></li>
+      </ul>
+    </nav>
 
-  <main id="main-content">
-    <section id="about">
-      <h2 data-aos="fade-right">Tentang Kami</h2>
-      <p data-aos="fade-left" style="text-align:center; max-width: 800px; margin:0 auto 40px;">
-        TB Abdul Fatah, S.H. adalah advokat berpengalaman di bidang hukum litigasi dan non-litigasi, serta konsultan hukum terpercaya. Beliau telah menangani berbagai kasus hukum dari perdata, pidana, hingga korporasi dengan pendekatan profesional dan solutif.
-      </p>
-      <h2 data-aos="fade-up">Pendidikan</h2>
-      <div class="cards">
-        <div class="card" data-aos="zoom-in-up"><h3>Sarjana Hukum</h3><p>Sekolah Tinggi Ilmu Hukum(STIH) Painan</p></div>
-        <div class="card" data-aos="zoom-in-up" data-aos-delay="100"><h3>Keanggotaan</h3><p>Persatuan Advokat Indonesia (PERSADIN)</p></div>
-        <div class="card" data-aos="zoom-in-up" data-aos-delay="100"><h3>Organisasi</h3><p>Badan Pembinaan Potensi Keluarga Besar (BPPKB) Banten</p></div>
-      </div>
-    </section>
-
-    <section id="services">
-      <h2>Bidang Keahlian</h2>
-      <div class="cards">
-        <div class="card"><div class="card-icon"><i class="fas fa-gavel"></i></div><h3>Hukum Pidana</h3><p>Penanganan kasus kriminal, praperadilan, dll.</p></div>
-        <div class="card"><div class="card-icon"><i class="fas fa-briefcase"></i></div><h3>Hukum Bisnis</h3><p>Pendirian PT, kontrak bisnis, sengketa dagang.</p></div>
-        <div class="card"><div class="card-icon"><i class="fas fa-handshake"></i></div><h3>Hukum Perdata</h3><p>Sengketa, kontrak, waris, perdata niaga.</p></div>
-        <div class="card"><div class="card-icon"><i class="fas fa-tractor"></i></div><h3>Hukum Agraria</h3><p>Sengketa tanah, sertifikasi.</p></div>
-        <div class="card"><div class="card-icon"><i class="fas fa-home"></i></div><h3>Hukum Keluarga</h3><p>Perceraian, hak asuh anak, perwalian.</p></div>
-        <div class="card"><div class="card-icon"><i class="fas fa-hard-hat"></i></div><h3>Hukum Ketenagakerjaan</h3><p>PHK, PPHI, kontrak kerja, pesangon.</p></div>
-      </div>
-    </section>
-
-    <section id="articles">
-      <h2>Artikel Hukum</h2>
-      <div class="cards">
-        <div class="card" data-aos="fade-up">
-          <h3>Hak Pekerja Saat PHK</h3>
-          <p>Ketahui hak-hak yang wajib diterima oleh pekerja ketika mengalami pemutusan hubungan kerja (PHK).</p>
-          <a href="artikel-phk.html" class="cta-button">Baca Selengkapnya</a>
+    <header id="home">
+      <div class="letterhead-rule top" data-aos="rule-draw"></div>
+      <div class="hero-flex">
+        <div class="profile-pic" data-aos="zoom-in">
+          <img src="img/profil abdul.jpg" alt="Foto TB Abdul Fatah, S.H." />
+          <div class="seal-badge" aria-hidden="true">
+            <svg viewBox="0 0 120 120">
+              <defs>
+                <path
+                  id="sealCirclePath"
+                  d="M 60,60 m -46,0 a 46,46 0 1,1 92,0 a 46,46 0 1,1 -92,0"
+                />
+              </defs>
+              <circle class="seal-ring" cx="60" cy="60" r="52" />
+              <circle class="seal-ring inner" cx="60" cy="60" r="40" />
+              <text class="seal-text">
+                <textPath href="#sealCirclePath" startOffset="0%">
+                  ADVOKAT &#8226; KONSULTAN HUKUM &#8226;
+                </textPath>
+              </text>
+              <text x="60" y="66" class="seal-center" text-anchor="middle">
+                S.H.
+              </text>
+            </svg>
+          </div>
         </div>
-        <div class="card" data-aos="fade-up" data-aos-delay="100">
-          <h3>Perbedaan Pidana dan Perdata</h3>
-          <p>Penjelasan ringkas mengenai perbedaan mendasar antara hukum pidana dan hukum perdata di Indonesia.</p>
-          <a href="artikel-pidana.html" class="cta-button">Baca Selengkapnya</a>
-        </div>
-        <div class="card" data-aos="fade-up" data-aos-delay="200">
-          <h3>Panduan Perceraian di Pengadilan</h3>
-          <p>Langkah-langkah hukum yang perlu diketahui sebelum mengajukan gugatan cerai secara resmi.</p>
-          <a href="artikel-perceraian.html" class="cta-button">Baca Selengkapnya</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="cta-container" data-aos="fade-up">
-        <h2>Konsultasi Via Online Atau</h2>
-        <h3>Atur Pertemuan</h3>
-        <div class="cta-content">
-          <p>Konsultasikan segala permasalahan hukum Anda secara gratis dan mudah cukup dengan hubungi kami via online atau buat janji pertemuan secara fleksibel di tempat yang nyaman untuk Anda. Diskusikan permasalahan hukum Anda dan langkah bertemu dengan tim advokat kami.</p>
-          <div class="cta-divider"></div>
-          <a href="https://wa.me/6281316411240" class="cta-button">Konsultasi Sekarang</a>
-          <div class="cta-divider"></div>
-          <div class="values">
-            <h4>Nilai Yang Pengacara Kami Pegang</h4>
-            <div class="value-items">
-              <div class="value-item"><i class="fas fa-balance-scale"></i><span>Integritas</span></div>
-              <div class="value-item"><i class="fas fa-handshake"></i><span>Profesionalisme</span></div>
-              <div class="value-item"><i class="fas fa-user-shield"></i><span>Kerahasiaan</span></div>
-            </div>
+        <div class="hero-text">
+          <p class="eyebrow" data-aos="fade-up">
+            Kantor Hukum &mdash; Berdiri Atas Nama
+          </p>
+          <h1 data-aos="fade-up" data-aos-delay="100">
+            TB Abdul Fatah<span class="title-comma">,</span>
+            <span class="degree">S.H.</span>
+          </h1>
+          <p class="hero-role" data-aos="fade-up" data-aos-delay="200">
+            Advokat &amp; Konsultan Hukum
+          </p>
+          <p class="hero-desc" data-aos="fade-up" data-aos-delay="300">
+            Menangani perkara litigasi dan non-litigasi dengan pendekatan yang
+            teliti, profesional, dan berpihak pada kepentingan Anda.
+          </p>
+          <div class="hero-actions" data-aos="fade-up" data-aos-delay="400">
+            <a href="https://wa.me/6281316411240" class="stamp-cta">
+              <span class="stamp-cta-ring"></span>
+              <span class="stamp-cta-label">Konsultasi Sekarang</span>
+            </a>
+            <a href="#services" class="ghost-link"
+              >Lihat Bidang Keahlian <i class="fas fa-arrow-down"></i
+            ></a>
           </div>
         </div>
       </div>
-    </section>
-  </main>
+      <div class="letterhead-rule bottom" data-aos="rule-draw"></div>
+      <button class="scroll-cue" id="scrollCue" aria-label="Gulir ke bawah">
+        <i class="fas fa-chevron-down"></i>
+      </button>
+    </header>
 
-  <footer>
-    <p>&copy; 2025 TB Abdul Fatah, S.H. | Semua Hak Dilindungi.</p>
-  </footer>
+    <main id="main-content">
+      <section id="about">
+        <p class="eyebrow center" data-aos="fade-up">Profil Kantor</p>
+        <h2 data-aos="fade-up">Tentang Kami</h2>
+        <p class="lead" data-aos="fade-up" data-aos-delay="100">
+          TB Abdul Fatah, S.H. dan Rekan adalah tim advokat berpengalaman di
+          bidang hukum litigasi dan non-litigasi, serta konsultan hukum
+          terpercaya. Beliau telah menangani berbagai kasus hukum dari perdata,
+          pidana, hingga korporasi dengan pendekatan profesional dan solutif.
+        </p>
 
-  <!-- Scripts -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="script/script.js"></script>
-</body>
+        <p class="eyebrow center" data-aos="fade-up">
+          Riwayat &amp; Keanggotaan
+        </p>
+        <h2 data-aos="fade-up">Pendidikan</h2>
+        <div class="cards">
+          <div class="card" data-aos="fade-up">
+            <div class="card-tag">Pendidikan</div>
+            <h3>Sarjana Hukum</h3>
+            <p>Sekolah Tinggi Ilmu Hukum (STIH) Painan</p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-tag">Keanggotaan</div>
+            <h3>PERSADIN</h3>
+            <p>Persatuan Advokat Indonesia</p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-tag">Organisasi</div>
+            <h3>Ketua DPD BPPKB Banten</h3>
+            <p>Badan Pembinaan Potensi Keluarga Besar</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section-dark">
+        <p class="eyebrow center light" data-aos="fade-up">Layanan Hukum</p>
+        <h2 class="light" data-aos="fade-up">Bidang Keahlian</h2>
+        <div class="cards services-grid">
+          <div class="card dark-card" data-aos="fade-up">
+            <div class="card-icon"><i class="fas fa-gavel"></i></div>
+            <h3>Hukum Pidana</h3>
+            <p>
+              Penanganan kasus kriminal, praperadilan, dan pendampingan proses
+              hukum.
+            </p>
+          </div>
+          <div class="card dark-card" data-aos="fade-up" data-aos-delay="80">
+            <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+            <h3>Hukum Bisnis</h3>
+            <p>
+              Pendirian PT, kontrak bisnis, dan penyelesaian sengketa dagang.
+            </p>
+          </div>
+          <div class="card dark-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="card-icon"><i class="fas fa-handshake"></i></div>
+            <h3>Hukum Perdata</h3>
+            <p>Sengketa, kontrak, waris, dan perkara perdata niaga.</p>
+          </div>
+          <div class="card dark-card" data-aos="fade-up">
+            <div class="card-icon"><i class="fas fa-tractor"></i></div>
+            <h3>Hukum Agraria</h3>
+            <p>Sengketa tanah dan pengurusan sertifikasi.</p>
+          </div>
+          <div class="card dark-card" data-aos="fade-up" data-aos-delay="80">
+            <div class="card-icon"><i class="fas fa-home"></i></div>
+            <h3>Hukum Keluarga</h3>
+            <p>Perceraian, hak asuh anak, dan perwalian.</p>
+          </div>
+          <div class="card dark-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="card-icon"><i class="fas fa-hard-hat"></i></div>
+            <h3>Hukum Ketenagakerjaan</h3>
+            <p>PHK, PPHI, kontrak kerja, dan pesangon.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="articles">
+        <p class="eyebrow center" data-aos="fade-up">Bacaan Hukum</p>
+        <h2 data-aos="fade-up">Artikel Hukum</h2>
+        <div class="cards">
+          <a
+            href="artikel-phk.html"
+            class="card article-card"
+            data-aos="fade-up"
+          >
+            <div class="card-tag">Ketenagakerjaan</div>
+            <h3>Hak Pekerja Saat PHK</h3>
+            <p>
+              Ketahui hak-hak yang wajib diterima oleh pekerja ketika mengalami
+              pemutusan hubungan kerja.
+            </p>
+            <span class="read-more"
+              >Baca Selengkapnya <i class="fas fa-arrow-right"></i
+            ></span>
+          </a>
+          <a
+            href="artikel-pidana.html"
+            class="card article-card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="card-tag">Pidana &amp; Perdata</div>
+            <h3>Perbedaan Pidana dan Perdata</h3>
+            <p>
+              Penjelasan ringkas mengenai perbedaan mendasar antara hukum pidana
+              dan hukum perdata di Indonesia.
+            </p>
+            <span class="read-more"
+              >Baca Selengkapnya <i class="fas fa-arrow-right"></i
+            ></span>
+          </a>
+          <a
+            href="artikel-perceraian.html"
+            class="card article-card"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="card-tag">Keluarga</div>
+            <h3>Panduan Perceraian di Pengadilan</h3>
+            <p>
+              Langkah-langkah hukum yang perlu diketahui sebelum mengajukan
+              gugatan cerai secara resmi.
+            </p>
+            <span class="read-more"
+              >Baca Selengkapnya <i class="fas fa-arrow-right"></i
+            ></span>
+          </a>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section-dark">
+        <p class="eyebrow center light" data-aos="fade-up">Dokumentasi</p>
+        <h2 class="light" data-aos="fade-up">
+          Portofolio &amp; Kegiatan Penanganan Kasus
+        </h2>
+        <p
+          class="lead"
+          style="color: rgba(247, 243, 234, 0.65)"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          Sebagian dokumentasi pendampingan sidang, mediasi, dan kegiatan
+          organisasi TB Abdul Fatah, S.H. dan Rekan.
+        </p>
+
+        <div
+          class="portfolio-preview-grid"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
+          <div class="gallery-item">
+            <span class="exhibit-tag">Lamp. 01</span>
+            <img
+              src="img/portofolio/sidang-01.jpg"
+              alt="Pendampingan sidang di Pengadilan Negeri"
+              loading="lazy"
+              onerror="this.parentElement.classList.add('img-missing')"
+            />
+            <div class="gallery-caption">
+              Pendampingan sidang pemeriksaan saksi
+            </div>
+          </div>
+          <div class="gallery-item">
+            <span class="exhibit-tag">Lamp. 02</span>
+            <img
+              src="img/portofolio/mediasi-01.jpg"
+              alt="Sesi mediasi klien"
+              loading="lazy"
+              onerror="this.parentElement.classList.add('img-missing')"
+            />
+            <div class="gallery-caption">Mediasi penyelesaian sengketa</div>
+          </div>
+          <div class="gallery-item">
+            <span class="exhibit-tag">Lamp. 03</span>
+            <img
+              src="img/portofolio/konsultasi-01.jpg"
+              alt="Konsultasi hukum bersama klien"
+              loading="lazy"
+              onerror="this.parentElement.classList.add('img-missing')"
+            />
+            <div class="gallery-caption">Konsultasi hukum bersama klien</div>
+          </div>
+          <div class="gallery-item">
+            <span class="exhibit-tag">Lamp. 04</span>
+            <img
+              src="img/portofolio/organisasi-01.jpg"
+              alt="Kegiatan organisasi BPPKB Banten"
+              loading="lazy"
+              onerror="this.parentElement.classList.add('img-missing')"
+            />
+            <div class="gallery-caption">Kegiatan DPD BPPKB Banten</div>
+          </div>
+        </div>
+
+        <div class="portfolio-preview-foot" data-aos="fade-up">
+          <a href="portofolio.html" class="stamp-cta">
+            <span class="stamp-cta-ring"></span>
+            <span class="stamp-cta-label">Lihat Semua Dokumentasi</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="cta-container" data-aos="fade-up">
+          <div class="cta-corner-stamp" aria-hidden="true">
+            <i class="fas fa-stamp"></i>
+          </div>
+          <p class="eyebrow center">Mulai Konsultasi</p>
+          <h2>Konsultasi Via Online Atau</h2>
+          <h3>Atur Pertemuan</h3>
+          <div class="cta-content">
+            <p>
+              Konsultasikan segala permasalahan hukum Anda secara gratis dan
+              mudah cukup dengan menghubungi kami secara online, atau buat janji
+              pertemuan secara fleksibel di tempat yang nyaman untuk Anda.
+            </p>
+            <div class="cta-divider"></div>
+            <a href="https://wa.me/6281316411240" class="stamp-cta large">
+              <span class="stamp-cta-ring"></span>
+              <span class="stamp-cta-label"
+                ><i class="fab fa-whatsapp"></i> Konsultasi Sekarang</span
+              >
+            </a>
+            <div class="cta-divider"></div>
+            <div class="values">
+              <h4>Nilai Yang Pengacara Kami Pegang</h4>
+              <div class="value-items">
+                <div class="value-item">
+                  <i class="fas fa-balance-scale"></i><span>Integritas</span>
+                </div>
+                <div class="value-item">
+                  <i class="fas fa-handshake"></i><span>Profesionalisme</span>
+                </div>
+                <div class="value-item">
+                  <i class="fas fa-user-shield"></i><span>Kerahasiaan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="logo footer-logo">
+          <span class="logo-mark">TB</span>
+          <span class="logo-text">Abdul Fatah <em>&amp; Rekan</em></span>
+        </div>
+        <p>&copy; 2025 TB Abdul Fatah, S.H. | Semua Hak Dilindungi.</p>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/6281316411240"
+      class="float-wa"
+      aria-label="Hubungi via WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script/script.js"></script>
+  </body>
 </html>
