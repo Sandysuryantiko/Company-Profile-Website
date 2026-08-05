@@ -720,6 +720,71 @@ section h2.light {
   font-weight: 500;
 }
 
+/* Social follow — TikTok */
+.social-follow h4 {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--navy-900);
+  margin-bottom: 22px;
+}
+
+.social-items {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.social-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background: var(--paper-dim);
+  border: 1px solid rgba(14, 26, 43, 0.08);
+  padding: 10px 20px 10px 12px;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+}
+
+.social-item:hover {
+  background: var(--navy-900);
+  border-color: var(--navy-900);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--navy-900);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+  transition: background 0.3s ease;
+}
+.social-item:hover .social-icon {
+  background: var(--stamp-red);
+  color: var(--paper);
+}
+
+.social-handle {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink);
+  transition: color 0.3s ease;
+}
+.social-item:hover .social-handle {
+  color: var(--paper);
+}
+
 /* ==========================================================================
    FOOTER
    ========================================================================== */
